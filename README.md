@@ -105,3 +105,75 @@ Clone the repository and install the required packages:
 
 ```bash
 npm install
+```
+
+Start the Expo development server:
+
+```bash
+npx expo start
+```
+
+The application can then be opened through Expo Go on a compatible mobile device.
+
+## Testing
+
+The MVP was manually tested on a physical iPhone using Expo Go.
+
+Testing focused on:
+
+- Screen navigation
+- Weekly pick selection
+- Predicted score entry
+- Pick validation
+- Pick submission
+- Game filters
+- Live Scores
+- Leaderboard
+- Rewards
+- Admin Panel functionality
+
+## Current MVP Limitations
+
+This version is intended as a functional MVP and demonstration of the application concept.
+
+The current version does not yet include:
+
+- User authentication
+- Production database storage
+- Persistent account data
+- Live college football API integration
+- Production push notifications
+- Real employee accounts
+- Automatic game locking based on kickoff time
+- Production administrative authentication
+- App Store or Google Play deployment
+
+Sample data is currently stored locally within the React Native application.
+
+## Future Development
+
+Future versions of PickSix could include:
+
+- Secure employee authentication
+- Persistent user accounts and picks
+- Live college football data
+- Automated scoring
+- Push notifications
+- Game-locking at kickoff
+- Expanded administrative controls
+- Historical competition data
+- Enhanced accessibility
+- iOS and Android production deployment
+
+## Version Control
+
+The PickSix React Native MVP is maintained through Git and GitHub.
+
+Repository:
+
+`https://github.com/dalryo/PickSixNative`
+
+## Developer
+
+**Dalton Young**  
+SENG 564 -- Fall 2026
